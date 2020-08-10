@@ -1,0 +1,63 @@
+CRITICAL - 2020-08-07 07:10:17 --> Invalid file: public/index.php/edit-user.php
+#0 /opt/lampp/htdocs/mesprojets/democodeigniter/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('public/index.ph...')
+#1 /opt/lampp/htdocs/mesprojets/democodeigniter/system/Common.php(1119): CodeIgniter\View\View->render('public/index.ph...', Array, true)
+#2 /opt/lampp/htdocs/mesprojets/democodeigniter/app/Controllers/Users.php(48): view('public/index.ph...', Array)
+#3 /opt/lampp/htdocs/mesprojets/democodeigniter/system/CodeIgniter.php(918): App\Controllers\Users->edit('1')
+#4 /opt/lampp/htdocs/mesprojets/democodeigniter/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#5 /opt/lampp/htdocs/mesprojets/democodeigniter/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/mesprojets/democodeigniter/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-08-07 07:14:10 --> Invalid file: public/index.php/edit-user.php
+#0 /opt/lampp/htdocs/mesprojets/democodeigniter/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('public/index.ph...')
+#1 /opt/lampp/htdocs/mesprojets/democodeigniter/system/Common.php(1119): CodeIgniter\View\View->render('public/index.ph...', Array, true)
+#2 /opt/lampp/htdocs/mesprojets/democodeigniter/app/Controllers/Users.php(48): view('public/index.ph...', Array)
+#3 /opt/lampp/htdocs/mesprojets/democodeigniter/system/CodeIgniter.php(918): App\Controllers\Users->edit('3')
+#4 /opt/lampp/htdocs/mesprojets/democodeigniter/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#5 /opt/lampp/htdocs/mesprojets/democodeigniter/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/mesprojets/democodeigniter/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-08-07 07:43:53 --> Invalid file: public/index.php/edit-user.php
+#0 /opt/lampp/htdocs/mesprojets/democodeigniter/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('public/index.ph...')
+#1 /opt/lampp/htdocs/mesprojets/democodeigniter/system/Common.php(1119): CodeIgniter\View\View->render('public/index.ph...', Array, true)
+#2 /opt/lampp/htdocs/mesprojets/democodeigniter/app/Controllers/Users.php(48): view('public/index.ph...', Array)
+#3 /opt/lampp/htdocs/mesprojets/democodeigniter/system/CodeIgniter.php(918): App\Controllers\Users->edit('4')
+#4 /opt/lampp/htdocs/mesprojets/democodeigniter/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#5 /opt/lampp/htdocs/mesprojets/democodeigniter/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/mesprojets/democodeigniter/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-08-07 07:44:13 --> Invalid file: public/index.php/edit-user.php
+#0 /opt/lampp/htdocs/mesprojets/democodeigniter/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('public/index.ph...')
+#1 /opt/lampp/htdocs/mesprojets/democodeigniter/system/Common.php(1119): CodeIgniter\View\View->render('public/index.ph...', Array, true)
+#2 /opt/lampp/htdocs/mesprojets/democodeigniter/app/Controllers/Users.php(48): view('public/index.ph...', Array)
+#3 /opt/lampp/htdocs/mesprojets/democodeigniter/system/CodeIgniter.php(918): App\Controllers\Users->edit('1')
+#4 /opt/lampp/htdocs/mesprojets/democodeigniter/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#5 /opt/lampp/htdocs/mesprojets/democodeigniter/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/mesprojets/democodeigniter/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-08-07 07:48:29 --> Invalid file: public/index.php/edit-user.php
+#0 /opt/lampp/htdocs/mesprojets/democodeigniter/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('public/index.ph...')
+#1 /opt/lampp/htdocs/mesprojets/democodeigniter/system/Common.php(1119): CodeIgniter\View\View->render('public/index.ph...', Array, true)
+#2 /opt/lampp/htdocs/mesprojets/democodeigniter/app/Controllers/Users.php(48): view('public/index.ph...', Array)
+#3 /opt/lampp/htdocs/mesprojets/democodeigniter/system/CodeIgniter.php(918): App\Controllers\Users->edit('1')
+#4 /opt/lampp/htdocs/mesprojets/democodeigniter/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#5 /opt/lampp/htdocs/mesprojets/democodeigniter/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/mesprojets/democodeigniter/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-08-07 07:48:50 --> Invalid file: public/index.php/edit-user.php
+#0 /opt/lampp/htdocs/mesprojets/democodeigniter/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('public/index.ph...')
+#1 /opt/lampp/htdocs/mesprojets/democodeigniter/system/Common.php(1119): CodeIgniter\View\View->render('public/index.ph...', Array, true)
+#2 /opt/lampp/htdocs/mesprojets/democodeigniter/app/Controllers/Users.php(48): view('public/index.ph...', Array)
+#3 /opt/lampp/htdocs/mesprojets/democodeigniter/system/CodeIgniter.php(918): App\Controllers\Users->edit('2')
+#4 /opt/lampp/htdocs/mesprojets/democodeigniter/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#5 /opt/lampp/htdocs/mesprojets/democodeigniter/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/mesprojets/democodeigniter/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-08-07 07:58:42 --> Invalid file: public/index.php/edit-user.php
+#0 /opt/lampp/htdocs/mesprojets/democodeigniter/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('public/index.ph...')
+#1 /opt/lampp/htdocs/mesprojets/democodeigniter/system/Common.php(1119): CodeIgniter\View\View->render('public/index.ph...', Array, true)
+#2 /opt/lampp/htdocs/mesprojets/democodeigniter/app/Controllers/Users.php(48): view('public/index.ph...', Array)
+#3 /opt/lampp/htdocs/mesprojets/democodeigniter/system/CodeIgniter.php(918): App\Controllers\Users->edit('2')
+#4 /opt/lampp/htdocs/mesprojets/democodeigniter/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#5 /opt/lampp/htdocs/mesprojets/democodeigniter/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/mesprojets/democodeigniter/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}

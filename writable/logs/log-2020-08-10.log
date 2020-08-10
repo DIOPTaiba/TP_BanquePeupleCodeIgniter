@@ -1,0 +1,48 @@
+CRITICAL - 2020-08-10 02:46:32 --> Call to undefined method App\Models\ResponsableCompte::findBy
+#0 /opt/lampp/htdocs/mesprojets/banquepeupleCodeIgniter/app/Controllers/AuthentificationEmployes.php(20): CodeIgniter\Model->__call('findBy', Array)
+#1 /opt/lampp/htdocs/mesprojets/banquepeupleCodeIgniter/system/CodeIgniter.php(918): App\Controllers\AuthentificationEmployes->verifieResponsable()
+#2 /opt/lampp/htdocs/mesprojets/banquepeupleCodeIgniter/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthentificationEmployes))
+#3 /opt/lampp/htdocs/mesprojets/banquepeupleCodeIgniter/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/mesprojets/banquepeupleCodeIgniter/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-10 03:44:59 --> Object of class App\Models\ResponsableCompte could not be converted to string
+#0 /opt/lampp/htdocs/mesprojets/banquepeupleCodeIgniter/system/CodeIgniter.php(918): App\Controllers\AuthentificationEmployes->verifieResponsable()
+#1 /opt/lampp/htdocs/mesprojets/banquepeupleCodeIgniter/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthentificationEmployes))
+#2 /opt/lampp/htdocs/mesprojets/banquepeupleCodeIgniter/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/mesprojets/banquepeupleCodeIgniter/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-08-10 03:58:07 --> Undefined property: App\Controllers\AuthentificationEmployes::$db
+#0 /opt/lampp/htdocs/mesprojets/banquepeupleCodeIgniter/app/Controllers/AuthentificationEmployes.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/opt/lampp/htdo...', 22, Array)
+#1 /opt/lampp/htdocs/mesprojets/banquepeupleCodeIgniter/system/CodeIgniter.php(918): App\Controllers\AuthentificationEmployes->verifieResponsable()
+#2 /opt/lampp/htdocs/mesprojets/banquepeupleCodeIgniter/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthentificationEmployes))
+#3 /opt/lampp/htdocs/mesprojets/banquepeupleCodeIgniter/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/mesprojets/banquepeupleCodeIgniter/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-10 03:58:57 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::get() must be of the type int or null, string given, called in /opt/lampp/htdocs/mesprojets/banquepeupleCodeIgniter/system/Model.php on line 1818
+#0 /opt/lampp/htdocs/mesprojets/banquepeupleCodeIgniter/system/Model.php(1818): CodeIgniter\Database\BaseBuilder->get('responsable_com...')
+#1 /opt/lampp/htdocs/mesprojets/banquepeupleCodeIgniter/app/Controllers/AuthentificationEmployes.php(22): CodeIgniter\Model->__call('get', Array)
+#2 /opt/lampp/htdocs/mesprojets/banquepeupleCodeIgniter/system/CodeIgniter.php(918): App\Controllers\AuthentificationEmployes->verifieResponsable()
+#3 /opt/lampp/htdocs/mesprojets/banquepeupleCodeIgniter/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthentificationEmployes))
+#4 /opt/lampp/htdocs/mesprojets/banquepeupleCodeIgniter/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/mesprojets/banquepeupleCodeIgniter/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-10 04:52:21 --> Undefined variable: insertionOk
+#0 /opt/lampp/htdocs/mesprojets/banquepeupleCodeIgniter/app/Views/accueilResponsable.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/opt/lampp/htdo...', 20, Array)
+#1 /opt/lampp/htdocs/mesprojets/banquepeupleCodeIgniter/system/View/View.php(246): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/mesprojets/banquepeupleCodeIgniter/system/Common.php(1119): CodeIgniter\View\View->render('accueilResponsa...', Array, true)
+#3 /opt/lampp/htdocs/mesprojets/banquepeupleCodeIgniter/app/Controllers/AuthentificationEmployes.php(27): view('accueilResponsa...')
+#4 /opt/lampp/htdocs/mesprojets/banquepeupleCodeIgniter/system/CodeIgniter.php(918): App\Controllers\AuthentificationEmployes->verifieResponsable()
+#5 /opt/lampp/htdocs/mesprojets/banquepeupleCodeIgniter/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthentificationEmployes))
+#6 /opt/lampp/htdocs/mesprojets/banquepeupleCodeIgniter/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/mesprojets/banquepeupleCodeIgniter/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-10 05:00:45 --> Undefined variable: insertionOk
+#0 /opt/lampp/htdocs/mesprojets/banquepeupleCodeIgniter/app/Views/accueilResponsable.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/opt/lampp/htdo...', 20, Array)
+#1 /opt/lampp/htdocs/mesprojets/banquepeupleCodeIgniter/system/View/View.php(246): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/mesprojets/banquepeupleCodeIgniter/system/Common.php(1119): CodeIgniter\View\View->render('accueilResponsa...', Array, true)
+#3 /opt/lampp/htdocs/mesprojets/banquepeupleCodeIgniter/app/Controllers/AuthentificationEmployes.php(27): view('accueilResponsa...')
+#4 /opt/lampp/htdocs/mesprojets/banquepeupleCodeIgniter/system/CodeIgniter.php(918): App\Controllers\AuthentificationEmployes->verifieResponsable()
+#5 /opt/lampp/htdocs/mesprojets/banquepeupleCodeIgniter/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthentificationEmployes))
+#6 /opt/lampp/htdocs/mesprojets/banquepeupleCodeIgniter/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/mesprojets/banquepeupleCodeIgniter/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
