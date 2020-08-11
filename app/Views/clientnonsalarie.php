@@ -10,7 +10,7 @@
  
 <div class="container mt-5">
     <a href="<?php echo base_url('public/index.php/Clientnonsalarie/afficheformulaireclientnonsalarie') ?>" class="btn btn-success mb-2">Ajouter Client non salarié</a>
-    <a href="<?php echo base_url('public/index.php/AuthentificationEmployes/accueilResponsable') ?>" class="btn btn-success mb-2">Ajouter un autre Client</a>
+    <a href="<?php echo base_url('public/index.php/AuthentificationEmployes/accueilResponsable') ?>" class="btn btn-success mb-2">Ajouter un autre type de Client</a>
     <br /><br />
     <h2>Liste Clients Non Salariés </h2>
     <?php
@@ -27,7 +27,7 @@
              <th>Prénom</th>
              <th>N° Carte d'identité</th>
              <th>Id client</th>
-             <th>Action</th>
+             <!-- <th>Action</th> -->
           </tr>
        </thead>
        <tbody>
@@ -39,10 +39,10 @@
                <td><?php echo $client['prenom']; ?></td>
                <td><?php echo $client['carte_identite']; ?></td>
                <td><?php echo $client['id_clients']; ?></td>
-             <td>
+             <!-- <td>
               <a href="#<?php /* echo base_url('public/users/edit/'.$client['id']); */?>" class="btn btn-success">Edit</a>
               <a href="#<?php /* echo base_url('public/index.php/users/delete/'.$client['id']); */?>" class="btn btn-danger">Delete</a>
-              </td>
+              </td> -->
           </tr>
          <?php endforeach; ?>
          <?php endif; ?>
